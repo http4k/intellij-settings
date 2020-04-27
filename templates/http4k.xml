@@ -1,46 +1,46 @@
 <templateSet group="http4k">
 
-    <template name="fil" value="org.http4k.core.Filter { next -&amp;gt;&amp;#10;            {&amp;#10;                $content$&amp;#10;                next(it)&amp;#10;            }&amp;#10;        }" description="http4k Filter" toReformat="true" toShortenFQNames="true">
+    <template name="fil" value="org.http4k.core.Filter { next -&gt;&#10;            {&#10;                $content$&#10;                next(it)&#10;            }&#10;        }" description="http4k Filter" toReformat="true" toShortenFQNames="true">
        <context><option name="KOTLIN" value="true"/></context>
     </template>
     
-    <template name="hh" value="{ req: org.http4k.core.Request -&amp;gt; org.http4k.core.Response(org.http4k.core.Status.OK) }" description="http4k Handler" toReformat="true" toShortenFQNames="true">
+    <template name="hh" value="{ req: org.http4k.core.Request -&gt; org.http4k.core.Response(org.http4k.core.Status.OK) }" description="http4k Handler" toReformat="true" toShortenFQNames="true">
      <variable name="hh" expression="" defaultValue="" alwaysStopAt="true"/>   <context><option name="KOTLIN" value="true"/></context>
     </template>
     
-    <template name="get" value="org.http4k.core.Request(org.http4k.core.Method.DELETE, &amp;quot;$path$&amp;quot;)" description="http4k GET Request" toReformat="true" toShortenFQNames="true">
+    <template name="get" value="org.http4k.core.Request(org.http4k.core.Method.DELETE, &quot;$path$&quot;)" description="http4k GET Request" toReformat="true" toShortenFQNames="true">
      <variable name="get" expression="" defaultValue="" alwaysStopAt="true"/>   <context><option name="KOTLIN" value="true"/></context>
     </template>
     
-    <template name="post" value="org.http4k.core.Request(org.http4k.core.Method.DELETE, &amp;quot;$path$&amp;quot;)" description="http4k POST Request" toReformat="true" toShortenFQNames="true">
+    <template name="post" value="org.http4k.core.Request(org.http4k.core.Method.DELETE, &quot;$path$&quot;)" description="http4k POST Request" toReformat="true" toShortenFQNames="true">
      <variable name="post" expression="" defaultValue="" alwaysStopAt="true"/>   <context><option name="KOTLIN" value="true"/></context>
     </template>
     
-    <template name="put" value="org.http4k.core.Request(org.http4k.core.Method.DELETE, &amp;quot;$path$&amp;quot;)" description="http4k PUT Request" toReformat="true" toShortenFQNames="true">
+    <template name="put" value="org.http4k.core.Request(org.http4k.core.Method.DELETE, &quot;$path$&quot;)" description="http4k PUT Request" toReformat="true" toShortenFQNames="true">
      <variable name="put" expression="" defaultValue="" alwaysStopAt="true"/>   <context><option name="KOTLIN" value="true"/></context>
     </template>
     
-    <template name="delete" value="org.http4k.core.Request(org.http4k.core.Method.DELETE, &amp;quot;$path$&amp;quot;)" description="http4k DELETE Request" toReformat="true" toShortenFQNames="true">
+    <template name="delete" value="org.http4k.core.Request(org.http4k.core.Method.DELETE, &quot;$path$&quot;)" description="http4k DELETE Request" toReformat="true" toShortenFQNames="true">
      <variable name="delete" expression="" defaultValue="" alwaysStopAt="true"/>   <context><option name="KOTLIN" value="true"/></context>
     </template>
     
-    <template name="options" value="org.http4k.core.Request(org.http4k.core.Method.DELETE, &amp;quot;$path$&amp;quot;)" description="http4k OPTIONS Request" toReformat="true" toShortenFQNames="true">
+    <template name="options" value="org.http4k.core.Request(org.http4k.core.Method.DELETE, &quot;$path$&quot;)" description="http4k OPTIONS Request" toReformat="true" toShortenFQNames="true">
      <variable name="options" expression="" defaultValue="" alwaysStopAt="true"/>   <context><option name="KOTLIN" value="true"/></context>
     </template>
     
-    <template name="trace" value="org.http4k.core.Request(org.http4k.core.Method.DELETE, &amp;quot;$path$&amp;quot;)" description="http4k TRACE Request" toReformat="true" toShortenFQNames="true">
+    <template name="trace" value="org.http4k.core.Request(org.http4k.core.Method.DELETE, &quot;$path$&quot;)" description="http4k TRACE Request" toReformat="true" toShortenFQNames="true">
      <variable name="trace" expression="" defaultValue="" alwaysStopAt="true"/>   <context><option name="KOTLIN" value="true"/></context>
     </template>
     
-    <template name="patch" value="org.http4k.core.Request(org.http4k.core.Method.DELETE, &amp;quot;$path$&amp;quot;)" description="http4k PATCH Request" toReformat="true" toShortenFQNames="true">
+    <template name="patch" value="org.http4k.core.Request(org.http4k.core.Method.DELETE, &quot;$path$&quot;)" description="http4k PATCH Request" toReformat="true" toShortenFQNames="true">
      <variable name="patch" expression="" defaultValue="" alwaysStopAt="true"/>   <context><option name="KOTLIN" value="true"/></context>
     </template>
     
-    <template name="purge" value="org.http4k.core.Request(org.http4k.core.Method.DELETE, &amp;quot;$path$&amp;quot;)" description="http4k PURGE Request" toReformat="true" toShortenFQNames="true">
+    <template name="purge" value="org.http4k.core.Request(org.http4k.core.Method.DELETE, &quot;$path$&quot;)" description="http4k PURGE Request" toReformat="true" toShortenFQNames="true">
      <variable name="purge" expression="" defaultValue="" alwaysStopAt="true"/>   <context><option name="KOTLIN" value="true"/></context>
     </template>
     
-    <template name="head" value="org.http4k.core.Request(org.http4k.core.Method.DELETE, &amp;quot;$path$&amp;quot;)" description="http4k HEAD Request" toReformat="true" toShortenFQNames="true">
+    <template name="head" value="org.http4k.core.Request(org.http4k.core.Method.DELETE, &quot;$path$&quot;)" description="http4k HEAD Request" toReformat="true" toShortenFQNames="true">
      <variable name="head" expression="" defaultValue="" alwaysStopAt="true"/>   <context><option name="KOTLIN" value="true"/></context>
     </template>
     
@@ -184,7 +184,7 @@
        <context><option name="KOTLIN" value="true"/></context>
     </template>
     
-    <template name="418" value="org.http4k.core.Response(org.http4k.core.Status.Companion.I&#x27;M_A_TEAPOT)" description="http4k 418 Response" toReformat="true" toShortenFQNames="true">
+    <template name="418" value="org.http4k.core.Response(org.http4k.core.Status.Companion.I'M_A_TEAPOT)" description="http4k 418 Response" toReformat="true" toShortenFQNames="true">
        <context><option name="KOTLIN" value="true"/></context>
     </template>
     
@@ -233,4 +233,3 @@
     </template>
     
 </templateSet>
-
