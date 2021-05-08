@@ -15,5 +15,5 @@ There are basically 4 types of template:
 -----|-----|-----|-----
 HttpHandler  | `hh`  | HttpHandler returning OK  | `{ req: Request -> Response(Status.OK) }`  
 Filter | `fil`  | Empty filter |  `Filter { next -> { next(it) } }` 
-Request | `get` etc  | Request for verb  |  `Request(Method.GET)`
+Request | `get` etc  | Request for verb  |  `Request(Method.GET, "<URL>")`
 Response | `200` etc  | Response with code  |  `Response(Status.OK)` 
