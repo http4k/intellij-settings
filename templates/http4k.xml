@@ -200,6 +200,10 @@
     <context><option name="KOTLIN" value="true"/></context>
     </template>
     
+    <template name="451" value="org.http4k.core.Response(org.http4k.core.Status.Companion.UNAVAILABLE_FOR_LEGAL_REASONS)" description="http4k 451 Response" toReformat="true" toShortenFQNames="true">
+    <context><option name="KOTLIN" value="true"/></context>
+    </template>
+    
     <template name="500" value="org.http4k.core.Response(org.http4k.core.Status.Companion.INTERNAL_SERVER_ERROR)" description="http4k 500 Response" toReformat="true" toShortenFQNames="true">
     <context><option name="KOTLIN" value="true"/></context>
     </template>
